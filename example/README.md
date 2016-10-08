@@ -1,9 +1,15 @@
 # Build a python module with SWIG
 
 ## Tutorial
+Basic:
+
 * [Unix-English](http://www.swig.org/tutorial.html)
 * [Uinx-Chinese](http://www.swig.org/translations/chinese/tutorial.html)
 * [Mac-English](http://www.dabeaz.com/cgi-bin/wiki.pl?SwigFaqMaxOSXSharedLibraries)
+
+More:
+
+* [Pass numpy to C](http://stackoverflow.com/questions/5862915/passing-numpy-arrays-to-a-c-function-for-input-and-output)
 
 
 ## Example Script
