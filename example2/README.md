@@ -12,6 +12,11 @@ More:
 * [Pass numpy to C](http://stackoverflow.com/questions/5862915/passing-numpy-arrays-to-a-c-function-for-input-and-output)
 
 
+**Structure:**
+
+* [**SWIG adding member functions**](http://www.swig.org/Doc1.3/SWIG.html#SWIG_adding_member_functions)
+
+
 ## Example Script
 * example_struct_with_fn : an example to implement function in C struct
 * example.c : the C codes
