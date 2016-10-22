@@ -4,7 +4,7 @@
 Basic:
 
 * [Unix-English](http://www.swig.org/tutorial.html)
-* [Uinx-Chinese](http://www.swig.org/translations/chinese/tutorial.html)
+* [Unix-Chinese](http://www.swig.org/translations/chinese/tutorial.html)
 * [Mac-English](http://www.dabeaz.com/cgi-bin/wiki.pl?SwigFaqMaxOSXSharedLibraries)
 
 More:
