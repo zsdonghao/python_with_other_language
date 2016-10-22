@@ -36,14 +36,17 @@ More:
 ```
 For Linux:
 # Create <example_wrap.c>
-unix % swig -python example.i               
+unix % swig -python example.i     
+       (for py3: swig -python -py3 jetson_led.i)
 
 # Create <example.o>, <example.py>, <example_wrap.o>
 unix % gcc -c example.c example_wrap.c \
       -I/usr/local/include/python2.1 
+      (for tk1/tx1 gcc -c example.c example_wrap.c -O2 -fPIC -I/usr/include/python2.7)
 
 # Link assembly file using ld, create _example.so
 unix % ld -shared example.o example_wrap.o -o _example.so
+      (for tk1/tx1 ld -shared example.o example_wrap.o -L/usr/lib -o _example.so)
 ```
 
 
